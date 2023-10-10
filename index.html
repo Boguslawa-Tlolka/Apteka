@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apteka</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <h1>Apteka</h1>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!-- hero -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Produkty lecznicze</h1>
+            <a href="#products"><button class="banner-btn">Kup teraz</button></a>
+        </div>
+    </header>
+    <!-- products -->
+    <section class="products" id="products">
+        <div class="section-title">
+            <h2>Nasze produkty</h2>
+        </div>
+        <div class="products-center">
+            
+        </div>
+    </section>
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Twój koszyk</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+            </div>
+            <div class="cart-footer">
+                <h3>Suma : <span class="cart-total">0</span>zł</h3>
+                <button class="clear-cart banner-btn">Wyczyść koszyk</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
